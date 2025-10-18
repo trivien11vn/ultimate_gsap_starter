@@ -38,7 +38,7 @@ fab.addEventListener("click", () => {
         opacity: 1,
         rotate: 360,
         duration: 0.5,
-        ease: "expo.out" // start fast, end slow
+        ease: "expo.out()" // start fast, end slow
       })
     });
   } else {
